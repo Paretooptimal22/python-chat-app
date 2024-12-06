@@ -1,14 +1,25 @@
-# Ignore the virtual environment
+# Virtual environment
 venv/
+venv*/
+.Python
+bin/
+include/
+lib/
+lib64/
+pip-selfcheck.json
 
-# Python files
-__pycache__/
+# IDE files
+.vscode/
+.idea/
+*.iml
 *.pyc
-*.pyo
-*.pyd
 
-# System files
-.DS_Store
+# Environment variables
+.env
 
-# Other ignore rules (if needed)
-*.log
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+node_modules/
+/dist/
